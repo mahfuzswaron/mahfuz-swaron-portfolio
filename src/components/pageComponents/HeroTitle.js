@@ -1,6 +1,4 @@
-import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import Button from '../common/Button';
 
 const HeroTitle = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -8,7 +6,7 @@ const HeroTitle = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Web Developer"];
+    const toRotate = ["Web Developer", "Content Writer"];
     const period = 500;
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -52,20 +50,6 @@ const HeroTitle = () => {
                 Swaron
             </h1>
             <h3 className='text-[4.4rem] md:text-[4rem] lg:text-[4.5rem] font-medium leading-none  text-primary '>{text} <span className='text-textBase font-thin'>|</span></h3>
-            <div className='flex space-x-5 mb-5 my-10'>
-                <Link
-                    className=''
-                    href={"#contact"}
-                    target="_blank"
-                    rel="noreferrer"
-                > <Button type={"secondary"}> CONTACT </Button> </Link>
-                <Link
-                    className=''
-                    href={"https://drive.google.com/file/d/1DCzhN3Yik5MpzJoV1sns7XJCTy7_-INr/view?usp=sharing"}
-                    target="_blank"
-                    rel="noreferrer"
-                >  <Button type={"primary"}> RESUME </Button> </Link>
-            </div>
         </div>
     );
 };
