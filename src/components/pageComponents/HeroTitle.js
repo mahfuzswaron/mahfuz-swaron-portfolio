@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
+import Button from '../common/Button';
 
 const HeroTitle = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -51,19 +52,19 @@ const HeroTitle = () => {
                 Swaron
             </h1>
             <h3 className='text-[4.4rem] md:text-[4rem] lg:text-[4.5rem] font-medium leading-none  text-primary '>{text} <span className='text-textBase font-thin'>|</span></h3>
-            <div className='flex space-x-5 mb-5'>
+            <div className='flex space-x-5 mb-5 my-10'>
                 <Link
-                    className='btn btn-primary btn-lg w-36 lg:w-48 my-10'
-                    href={"https://drive.google.com/file/d/1DCzhN3Yik5MpzJoV1sns7XJCTy7_-INr/view?usp=sharing"}
-                    target="_blank"
-                    rel="noreferrer"
-                > resume </Link>
-                <Link
-                    className='btn btn-primary btn-outline btn-lg w-36 lg:w-48  my-10'
+                    className=''
                     href={"#contact"}
                     target="_blank"
                     rel="noreferrer"
-                > conact </Link>
+                > <Button type={"secondary"}> CONTACT </Button> </Link>
+                <Link
+                    className=''
+                    href={"https://drive.google.com/file/d/1DCzhN3Yik5MpzJoV1sns7XJCTy7_-INr/view?usp=sharing"}
+                    target="_blank"
+                    rel="noreferrer"
+                >  <Button type={"primary"}> RESUME </Button> </Link>
             </div>
         </div>
     );
