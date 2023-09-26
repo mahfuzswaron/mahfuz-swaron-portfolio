@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import HeroSection from '@/components/pageComponents/HeroSection'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Poppins({ subsets: ['latin-ext'], weight: "400" })
 
 export default function Home() {
   return (
