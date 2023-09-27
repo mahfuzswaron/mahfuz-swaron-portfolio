@@ -20,3 +20,16 @@ body {
   color: white;
   background: var(--background-start-rgb)
 }
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #38BDF8;
+  border-radius: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(15 23 42);
+}

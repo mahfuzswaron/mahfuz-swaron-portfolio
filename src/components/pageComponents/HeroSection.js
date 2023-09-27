@@ -7,7 +7,7 @@ import heroImg from '../../assets/images/web-developer.svg';
 
 const HeroSection = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-[5vw] py-[10vw] items-center'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-[5vw] py-[8vw] items-center'>
             <div>
                 <HeroTitle />
                 <div className='flex space-x-5 mb-5 my-10'>

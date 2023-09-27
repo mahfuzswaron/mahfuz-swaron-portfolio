@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const About = () => {
     return (
-        <section className='px-[5vw] py-[10vw]'>
+        <section className='px-[5vw] py-[8vw]'>
             <h2 className='text-5xl mb-20'>Me in a paragraph</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center">
                 <Image src={mahfuzPic} alt='mahfuz swaron image' className='w-3/4' ></Image>
