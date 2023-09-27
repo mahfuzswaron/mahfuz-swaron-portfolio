@@ -7,10 +7,10 @@ const NavigationBar = () => {
             <Link href="/" >Mahfuz Swaron</Link>
             <ul className={`flex justify-end space-x-8`}>
                 <li><Link href={"/home"}>Home</Link> </li>
-                <li><Link href={"/Skills"}>Skills</Link> </li>
-                <li><Link href={"/Projects"}>Projects</Link> </li>
-                <li><Link href={"/About"}>About</Link> </li>
-                <li><Link href={"/Contact"}>Contact</Link> </li>
+                <li><Link href={"/about"}>About</Link> </li>
+                <li><Link href={"/skills"}>Skills</Link> </li>
+                <li><Link href={"/projects"}>Projects</Link> </li>
+                <li><Link href={"/contact"}>Contact</Link> </li>
             </ul>
         </nav>
     );
