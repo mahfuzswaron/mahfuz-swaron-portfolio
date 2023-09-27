@@ -44,10 +44,10 @@ const HeroTitle = () => {
     return (
         <div className=''>
             <p className='text-[4.5rem] md:text-[4rem] leading-none font-light'>Hello,</p>
-            <h1 className='text-[5rem] md:text-[4rem] leading-none font-light'>
-                I'm
-                <span className='text-primary font-medium'> Mahfuz </span>
-                Swaron
+            <h1 className='text-[5rem] md:text-[4rem] leading-none'>
+                <span className="font-light">I'm</span>
+                <span className='text-primary'> Mahfuz </span>
+                <span>Swaron</span>
             </h1>
             <h3 className='text-[4.4rem] md:text-[4rem] lg:text-[4.5rem] font-medium leading-none  text-primary '>{text} <span className='text-textBase font-thin'>|</span></h3>
         </div>
