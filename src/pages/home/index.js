@@ -1,12 +1,8 @@
-import Home from '@/components/pageComponents/Home';
 import React from 'react';
+import Home from '../../components/pageComponents/Home/Home'
 
 const Homepage = () => {
-    return (
-        <>
-            <Home />
-        </>
-    );
+    return <Home />;
 };
 
 export default Homepage;

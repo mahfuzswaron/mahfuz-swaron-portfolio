@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import HeroTitle from './HeroTitle';
-import Button from '../common/Button';
-import heroImg from '../../assets/images/web-developer.svg';
+import Button from '../../common/Button';
+import heroImg from '../../../assets/images/web-developer.svg';
 
 const HeroSection = () => {
     return (
